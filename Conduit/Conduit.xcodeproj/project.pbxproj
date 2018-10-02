@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5A558D21600FEF00C78D61 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A558C21600FEF00C78D61 /* SigninViewController.swift */; };
+		3F9932CE2162DE5800BE9330 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9932CD2162DE5800BE9330 /* LoginViewController.swift */; };
 		650D214F21584E4700D813CA /* Hippolyte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650D214E21584E4700D813CA /* Hippolyte.framework */; };
 		65683FEE215C1FE5004BD8A4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65683FED215C1FE5004BD8A4 /* Helpers.swift */; };
 		65E16FBF215FB7610047EE3C /* UserRemoteDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E16FBE215FB7610047EE3C /* UserRemoteDataManagerTests.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5A558C21600FEF00C78D61 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		3F9932CD2162DE5800BE9330 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		650D214E21584E4700D813CA /* Hippolyte.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hippolyte.framework; path = Carthage/Build/iOS/Hippolyte.framework; sourceTree = "<group>"; };
 		65683FED215C1FE5004BD8A4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		65E16FBE215FB7610047EE3C /* UserRemoteDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteDataManagerTests.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				65FC0ACD21584822002851FE /* LaunchScreen.storyboard */,
 				65FC0AD021584822002851FE /* Info.plist */,
 				65FC0AC82158481F002851FE /* Conduit.xcdatamodeld */,
+				3F9932CD2162DE5800BE9330 /* LoginViewController.swift */,
+				3F5A558C21600FEF00C78D61 /* SigninViewController.swift */,
 			);
 			path = Conduit;
 			sourceTree = "<group>";
@@ -348,6 +354,8 @@
 				65E16FC2215FCD800047EE3C /* UserEntity.swift in Sources */,
 				65FC0ACA2158481F002851FE /* Conduit.xcdatamodeld in Sources */,
 				65F390F0215AE6FC00593503 /* UserRemoteDataManager.swift in Sources */,
+				3F9932CE2162DE5800BE9330 /* LoginViewController.swift in Sources */,
+				3F5A558D21600FEF00C78D61 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
